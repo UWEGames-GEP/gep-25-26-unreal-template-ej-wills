@@ -5,10 +5,6 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Item.uasset",
-				"D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/H8/LCRMOKKGH5EQE9LMI5B4UY.uasset",
-				"D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_PauseMenu.uasset",
 				"C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/ThirdPerson/Input/Actions/IA_PauseGAme.uasset",
 				"C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/ThirdPerson/Input/IMC_Default.uasset",
 				"C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
@@ -16,6 +12,16 @@
 				"C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Inventory/St_InventoryData.uasset",
 				"C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Inventory/St_INventorySLot.uasset",
 				"C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Inventory/BP_InventoryComponent.uasset",
+				"C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Item.uasset",
+				"C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/H8/LCRMOKKGH5EQE9LMI5B4UY.uasset",
+				"C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Inventory/BPC_Inventory.uasset",
+				"C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/BPI_PIckUp.uasset",
+				"C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_Inventory.uasset",
+				"C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_ItemSlot.uasset",
+				"D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Item.uasset",
+				"D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/H8/LCRMOKKGH5EQE9LMI5B4UY.uasset",
+				"D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_PauseMenu.uasset",
 				"D:/GEP-Unreal-5.4.4-Template/GEP_Template/Content/StarterContent/Architecture/Floor_400x400.uasset"
 			]
 		}
