@@ -3453,3 +3453,14 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.15-16.32.17:538][243]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.02.15-16.32.17:538][243]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.02.15-16.32.17:538][243]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2026.02.15-16.35.31:397][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.02.15-16.35.31:399][947]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.023
+[2026.02.15-16.35.31:399][947]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2026.02.15-16.35.31:573][947]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2026.02.15-16.35.31:573][947]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2026.02.15-16.35.31:596][947]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto4
+[2026.02.15-16.35.31:596][947]LogSavePackage: Moving 'C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/BP_ThirdPersonCharacter_Auto48EB5565042FE121298A5049D234105D9.tmp' to 'C:/Users/My PC/Desktop/Uni Games/Yr 2/G E P/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto4.uasset'
+[2026.02.15-16.35.31:597][947]LogFileHelpers: Auto-saving content packages took 0.198
+[2026.02.15-16.37.16:348][262]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2879.528320
+[2026.02.15-16.37.17:351][265]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.15-16.37.17:351][265]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2880.197021, Update Interval: 323.857544
