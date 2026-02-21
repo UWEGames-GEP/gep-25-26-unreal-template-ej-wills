@@ -5441,3 +5441,1016 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.21-15.51.45:442][350]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7780.490723
 [2026.02.21-15.51.46:446][353]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.02.21-15.51.46:446][353]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7781.157715, Update Interval: 339.198578
+[2026.02.21-15.55.11:453][105]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.21-15.55.11:463][105]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.02.21-15.55.11:463][105]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.02.21-15.55.11:465][105]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.409 ms (total: 97.615 ms)
+[2026.02.21-15.55.11:465][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.21-15.55.11:465][105]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-15.55.11:469][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003937s)
+[2026.02.21-15.55.11:469][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003982s)
+[2026.02.21-15.55.11:493][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2026.02.21-15.55.11:495][105]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.02.21-15.55.11:497][105]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.21-15.55.11:497][105]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.21-15.55.11:497][105]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.21-15.55.11:497][105]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.21-15.55.11:498][105]LogWorldPartition: Display: WorldPartition initialize took 1.479 ms (total: 202.645 ms)
+[2026.02.21-15.55.11:498][105]LogPlayLevel: PIE: World Init took: (0.003561s)
+[2026.02.21-15.55.11:500][105]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2026.02.21-15.55.11:500][105]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.21-15.55.11:500][105]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.21-15.55.11:500][105]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.21-15.55.11:500][105]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.21-15.55.11:500][105]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.21-15.55.11:500][105]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.21-15.55.11:500][105]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.21-15.55.11:500][105]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.21-15.55.11:500][105]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.21-15.55.11:500][105]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.21-15.55.11:500][105]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.21-15.55.11:503][105]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.21-15.55.11:539][105]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.21-15.55.11:540][105]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.21-15.55.11:540][105]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.21-15.55.11:540][105]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.21-15.55.11:540][105]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2026.02.21-15.55.11:540][105]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2026.02.21-15.55.11:543][105]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2026.02.21-15.55.11:543][105]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2026.02.21-15.55.11:543][105]LogInit: FAudioDevice initialized with ID 38.
+[2026.02.21-15.55.11:543][105]LogAudio: Display: Audio Device (ID: 38) registered with world 'ThirdPersonMap'.
+[2026.02.21-15.55.11:543][105]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2026.02.21-15.55.11:546][105]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.21-15.55.11:548][105]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.02.21-15.55.11
+[2026.02.21-15.55.11:549][105]LogWorld: Bringing up level for play took: 0.002105
+[2026.02.21-15.55.11:551][105]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2026.02.21-15.55.11:556][105]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] ball
+[2026.02.21-15.55.11:556][105]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] T_Brick_Clay_Beveled_M
+[2026.02.21-15.55.11:556][105]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] Cube
+[2026.02.21-15.55.11:556][105]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] T_Explosion_SubUV
+[2026.02.21-15.55.11:556][105]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] Cube
+[2026.02.21-15.55.11:556][105]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] T_Explosion_SubUV
+[2026.02.21-15.55.11:556][105]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] ball
+[2026.02.21-15.55.11:557][105]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] T_Brick_Clay_Beveled_M
+[2026.02.21-15.55.11:558][105]PIE: Server logged in
+[2026.02.21-15.55.11:559][105]PIE: Play in editor total start time 0.097 seconds.
+[2026.02.21-15.55.14:288][302]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] Pickup Actor: ball
+[2026.02.21-15.55.14:289][302]LogBlueprintUserMessages: [BPC_Inventory] false
+[2026.02.21-15.55.14:289][302]LogBlueprintUserMessages: [WB_Inventory_C_0] Icon
+[2026.02.21-15.55.15:525][396]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] Pickup Actor: Cube
+[2026.02.21-15.55.15:525][396]LogBlueprintUserMessages: [BPC_Inventory] false
+[2026.02.21-15.55.15:525][396]LogBlueprintUserMessages: [WB_Inventory_C_0] Icon
+[2026.02.21-15.55.15:910][426]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] Pickup Actor: Cube
+[2026.02.21-15.55.15:910][426]LogBlueprintUserMessages: [BPC_Inventory] Cube1
+[2026.02.21-15.55.16:347][460]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.21-15.55.16:347][460]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.02.21-15.55.16:347][460]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.02.21-15.55.16:794][496]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.02.21-15.55.16:794][496]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.02.21-15.55.20:336][774]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] Pickup Actor: ball
+[2026.02.21-15.55.20:336][774]LogBlueprintUserMessages: [BPC_Inventory] ball0
+[2026.02.21-15.55.20:852][815]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.21-15.55.20:852][815]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.02.21-15.55.22:226][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-15.55.22:226][925]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-15.55.22:227][925]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-15.55.22:227][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-15.55.22:227][925]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.02.21-15.55.22:232][925]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.21-15.55.22:238][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-15.55.22:267][925]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.21-15.55.22:268][925]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2026.02.21-15.55.22:268][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2026.02.21-15.55.22:270][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2026.02.21-15.55.22:275][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-15.55.22:279][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2026.02.21-15.55.22:367][926]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2026.02.21-15.58.10:884][572]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8165.940430
+[2026.02.21-15.58.11:885][575]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.21-15.58.11:885][575]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8166.607910, Update Interval: 345.530579
+[2026.02.21-16.02.10:850][541]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.21-16.02.10:859][541]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.02.21-16.02.10:859][541]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.02.21-16.02.10:862][541]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 3.272 ms (total: 100.887 ms)
+[2026.02.21-16.02.10:863][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.21-16.02.10:863][541]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-16.02.10:868][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004946s)
+[2026.02.21-16.02.10:868][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004997s)
+[2026.02.21-16.02.10:901][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.02.21-16.02.10:904][541]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.02.21-16.02.10:906][541]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.21-16.02.10:906][541]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.21-16.02.10:906][541]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.21-16.02.10:906][541]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.21-16.02.10:908][541]LogWorldPartition: Display: WorldPartition initialize took 1.844 ms (total: 204.489 ms)
+[2026.02.21-16.02.10:908][541]LogPlayLevel: PIE: World Init took: (0.004317s)
+[2026.02.21-16.02.10:909][541]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2026.02.21-16.02.10:910][541]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.21-16.02.10:910][541]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.21-16.02.10:910][541]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.21-16.02.10:910][541]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.21-16.02.10:910][541]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.21-16.02.10:910][541]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.21-16.02.10:910][541]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.21-16.02.10:910][541]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.21-16.02.10:910][541]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.21-16.02.10:910][541]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.21-16.02.10:910][541]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.21-16.02.10:915][541]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.21-16.02.10:964][541]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.21-16.02.10:964][541]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.21-16.02.10:964][541]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.21-16.02.10:964][541]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.21-16.02.10:965][541]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2026.02.21-16.02.10:965][541]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2026.02.21-16.02.10:969][541]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2026.02.21-16.02.10:969][541]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2026.02.21-16.02.10:969][541]LogInit: FAudioDevice initialized with ID 39.
+[2026.02.21-16.02.10:969][541]LogAudio: Display: Audio Device (ID: 39) registered with world 'ThirdPersonMap'.
+[2026.02.21-16.02.10:969][541]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2026.02.21-16.02.10:974][541]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.21-16.02.10:977][541]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.02.21-16.02.10
+[2026.02.21-16.02.10:978][541]LogWorld: Bringing up level for play took: 0.002899
+[2026.02.21-16.02.10:982][541]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2026.02.21-16.02.10:987][541]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] ball
+[2026.02.21-16.02.10:987][541]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] T_Brick_Clay_Beveled_M
+[2026.02.21-16.02.10:987][541]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] Cube
+[2026.02.21-16.02.10:987][541]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] T_Explosion_SubUV
+[2026.02.21-16.02.10:987][541]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] Cube
+[2026.02.21-16.02.10:987][541]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] T_Explosion_SubUV
+[2026.02.21-16.02.10:987][541]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] ball
+[2026.02.21-16.02.10:987][541]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] T_Brick_Clay_Beveled_M
+[2026.02.21-16.02.10:988][541]PIE: Server logged in
+[2026.02.21-16.02.10:990][541]PIE: Play in editor total start time 0.131 seconds.
+[2026.02.21-16.02.12:659][655]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] Pickup Actor: ball
+[2026.02.21-16.02.12:659][655]LogBlueprintUserMessages: [BPC_Inventory] false
+[2026.02.21-16.02.12:659][655]LogBlueprintUserMessages: [WB_Inventory_C_0] Icon
+[2026.02.21-16.02.13:143][692]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.21-16.02.13:143][692]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.02.21-16.02.13:143][692]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.02.21-16.02.13:803][743]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.02.21-16.02.13:803][743]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.02.21-16.02.15:359][862]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] Pickup Actor: Cube
+[2026.02.21-16.02.15:359][862]LogBlueprintUserMessages: [BPC_Inventory] false
+[2026.02.21-16.02.15:359][862]LogBlueprintUserMessages: [WB_Inventory_C_0] Icon
+[2026.02.21-16.02.15:799][896]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.21-16.02.15:799][896]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.02.21-16.02.16:495][951]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.02.21-16.02.16:495][951]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.02.21-16.02.17:393][ 20]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] Pickup Actor: Cube
+[2026.02.21-16.02.17:393][ 20]LogBlueprintUserMessages: [BPC_Inventory] Cube1
+[2026.02.21-16.02.17:833][ 54]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.21-16.02.17:833][ 54]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.02.21-16.02.18:692][122]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.02.21-16.02.18:692][122]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.02.21-16.02.20:633][271]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] Pickup Actor: ball
+[2026.02.21-16.02.20:633][271]LogBlueprintUserMessages: [BPC_Inventory] ball0
+[2026.02.21-16.02.21:066][305]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.21-16.02.21:066][305]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.02.21-16.02.27:606][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-16.02.27:606][821]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-16.02.27:606][821]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.02.27:606][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.02.27:606][821]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.02.21-16.02.27:611][821]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.21-16.02.27:616][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.02.27:639][821]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.21-16.02.27:640][821]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2026.02.21-16.02.27:640][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2026.02.21-16.02.27:642][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2026.02.21-16.02.27:648][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-16.02.27:650][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.02.21-16.02.27:721][822]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2026.02.21-16.03.41:132][839]LogSlate: Took 0.003311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2026.02.21-16.04.19:154][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.02.21-16.04.19:157][281]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.052
+[2026.02.21-16.04.19:158][281]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WB_ItemSlot] ([2] browsable assets)...
+[2026.02.21-16.04.19:163][281]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WB_ItemSlot.WB_ItemSlot]
+[2026.02.21-16.04.19:163][281]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WB_ItemSlot]
+[2026.02.21-16.04.19:163][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_ItemSlot" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Autosaves/Game/UI/WB_ItemSlot_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2026.02.21-16.04.19:168][281]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/WB_ItemSlot_Auto0
+[2026.02.21-16.04.19:168][281]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/WB_ItemSlot_Auto00732903248056CCF0E717DBC042DA878.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Autosaves/Game/UI/WB_ItemSlot_Auto0.uasset'
+[2026.02.21-16.04.19:169][281]LogFileHelpers: Auto-saving content packages took 0.012
+[2026.02.21-16.04.39:717][343]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8554.747070
+[2026.02.21-16.04.40:717][346]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.21-16.04.40:717][346]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8555.413086, Update Interval: 321.594299
+[2026.02.21-16.10.57:096][475]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8932.100586
+[2026.02.21-16.10.58:096][478]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.21-16.10.58:096][478]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8932.766602, Update Interval: 302.495789
+[2026.02.21-16.16.34:151][486]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9269.152344
+[2026.02.21-16.16.35:150][489]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.21-16.16.35:150][489]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9269.818359, Update Interval: 304.678497
+[2026.02.21-16.20.38:953][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2026.02.21-16.20.38:956][546]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.052
+[2026.02.21-16.20.38:957][546]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WB_ItemSlot] ([2] browsable assets)...
+[2026.02.21-16.20.38:961][546]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WB_ItemSlot.WB_ItemSlot]
+[2026.02.21-16.20.38:961][546]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WB_ItemSlot]
+[2026.02.21-16.20.38:961][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_ItemSlot" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Autosaves/Game/UI/WB_ItemSlot_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2026.02.21-16.20.38:965][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/WB_ItemSlot_Auto1
+[2026.02.21-16.20.38:965][546]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/WB_ItemSlot_Auto10E46F99B481EED67A0B2E1B0A926CE36.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Autosaves/Game/UI/WB_ItemSlot_Auto1.uasset'
+[2026.02.21-16.20.38:967][546]LogFileHelpers: Auto-saving content packages took 0.011
+[2026.02.21-16.22.26:429][751]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9621.421875
+[2026.02.21-16.22.27:431][754]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.21-16.22.27:431][754]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9622.090820, Update Interval: 358.368469
+[2026.02.21-16.23.06:164][332]LogEditorTransaction: Undo Remove Widget
+[2026.02.21-16.23.13:008][  6]LogEditorTransaction: Undo Remove Widget
+[2026.02.21-16.24.09:308][436]LogBlueprint: Warning: [AssetLog] D:\gep-25-26-unreal-template-ej-wills\GEP_Template\Content\UI\WB_ItemSlot.uasset: [Compiler] Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2026.02.21-16.24.09:371][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.02.21-16.24.27:328][230]LogBlueprint: Error: [AssetLog] D:\gep-25-26-unreal-template-ej-wills\GEP_Template\Content\UI\WB_ItemSlot.uasset: [Compiler] Binding: Property ' /Script/UMG.Image:OnMouseButtonDownEvent ' on Widget ' Icon ': Unknown Error
+[2026.02.21-16.24.27:399][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.02.21-16.24.32:301][728]LogBlueprint: Warning: Unknown type of hyperlinked object (Icon), cannot focus it
+[2026.02.21-16.24.52:357][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.02.21-16.24.52:469][922]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.24.52:523][922]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WB_ItemSlot] ([2] browsable assets)...
+[2026.02.21-16.24.52:528][922]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WB_ItemSlot.WB_ItemSlot]
+[2026.02.21-16.24.52:528][922]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WB_ItemSlot]
+[2026.02.21-16.24.52:528][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_ItemSlot" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_ItemSlot.uasset" SILENT=true
+[2026.02.21-16.24.52:534][922]LogSavePackage: Moving output files for package: /Game/UI/WB_ItemSlot
+[2026.02.21-16.24.52:535][922]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/WB_ItemSlotC97DBA5B463B0EBBD5E9FF8E1F6EFCA5.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_ItemSlot.uasset'
+[2026.02.21-16.24.52:547][922]LogFileHelpers: InternalPromptForCheckoutAndSave took 77.047 ms (total: 4.00 sec)
+[2026.02.21-16.24.52:620][922]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.21-16.24.52:620][922]LogContentValidation: Enabled validators:
+[2026.02.21-16.24.52:620][922]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.24.52:620][922]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.24.52:621][922]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.24.52:621][922]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.24.52:621][922]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.24.52:621][922]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.24.52:621][922]AssetCheck: /Game/UI/WB_ItemSlot Validating asset
+[2026.02.21-16.26.56:814][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.02.21-16.26.56:874][223]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.26.56:939][223]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Inventory/BPC_Inventory] ([2] browsable assets)...
+[2026.02.21-16.26.56:939][223]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/BPC_Inventory]
+[2026.02.21-16.26.56:939][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Inventory/BPC_Inventory" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Inventory/BPC_Inventory.uasset" SILENT=true
+[2026.02.21-16.26.56:956][223]LogSavePackage: Moving output files for package: /Game/Blueprints/Inventory/BPC_Inventory
+[2026.02.21-16.26.56:957][223]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/BPC_Inventory25AAE0B84A37664719CF4D8FD79E59A0.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Inventory/BPC_Inventory.uasset'
+[2026.02.21-16.26.56:959][223]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WB_Inventory] ([2] browsable assets)...
+[2026.02.21-16.26.56:962][223]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WB_Inventory.WB_Inventory]
+[2026.02.21-16.26.56:962][223]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WB_Inventory]
+[2026.02.21-16.26.56:962][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_Inventory" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_Inventory.uasset" SILENT=true
+[2026.02.21-16.26.56:972][223]LogSavePackage: Moving output files for package: /Game/UI/WB_Inventory
+[2026.02.21-16.26.56:975][223]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/WB_Inventory70B4562749FB3D6DF35FE9BB443BB7D5.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_Inventory.uasset'
+[2026.02.21-16.26.56:977][223]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WB_ItemSlot] ([2] browsable assets)...
+[2026.02.21-16.26.56:980][223]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WB_ItemSlot.WB_ItemSlot]
+[2026.02.21-16.26.56:980][223]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WB_ItemSlot]
+[2026.02.21-16.26.56:980][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_ItemSlot" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_ItemSlot.uasset" SILENT=true
+[2026.02.21-16.26.56:985][223]LogSavePackage: Moving output files for package: /Game/UI/WB_ItemSlot
+[2026.02.21-16.26.56:986][223]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/WB_ItemSlotB292954840FDE963CD18BA8116F5BF58.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_ItemSlot.uasset'
+[2026.02.21-16.26.56:997][223]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.367 ms (total: 4.13 sec)
+[2026.02.21-16.26.57:073][223]LogContentValidation: Display: Starting to validate 3 assets
+[2026.02.21-16.26.57:073][223]LogContentValidation: Enabled validators:
+[2026.02.21-16.26.57:073][223]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.26.57:073][223]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.26.57:073][223]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.26.57:073][223]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.26.57:073][223]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.26.57:073][223]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.26.57:073][223]AssetCheck: /Game/Blueprints/Inventory/BPC_Inventory Validating asset
+[2026.02.21-16.26.57:074][223]AssetCheck: /Game/UI/WB_Inventory Validating asset
+[2026.02.21-16.26.57:074][223]AssetCheck: /Game/UI/WB_ItemSlot Validating asset
+[2026.02.21-16.27.10:409][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.02.21-16.27.10:465][277]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.27.10:522][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Inventory/BPC_Inventory] ([2] browsable assets)...
+[2026.02.21-16.27.10:522][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/BPC_Inventory]
+[2026.02.21-16.27.10:522][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Inventory/BPC_Inventory" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Inventory/BPC_Inventory.uasset" SILENT=true
+[2026.02.21-16.27.10:539][277]LogSavePackage: Moving output files for package: /Game/Blueprints/Inventory/BPC_Inventory
+[2026.02.21-16.27.10:540][277]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/BPC_InventoryF543BE8F4CC65FE07FDD32940713B81D.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Inventory/BPC_Inventory.uasset'
+[2026.02.21-16.27.10:551][277]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.757 ms (total: 4.21 sec)
+[2026.02.21-16.27.10:621][277]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.21-16.27.10:621][277]LogContentValidation: Enabled validators:
+[2026.02.21-16.27.10:621][277]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.27.10:621][277]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.27.10:621][277]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.27.10:621][277]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.27.10:621][277]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.27.10:621][277]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.27.10:621][277]AssetCheck: /Game/Blueprints/Inventory/BPC_Inventory Validating asset
+[2026.02.21-16.29.00:306][233]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10015.273438
+[2026.02.21-16.29.00:454][249]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.21-16.29.00:454][249]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10015.413086, Update Interval: 314.689178
+[2026.02.21-16.32.52:387][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2026.02.21-16.32.52:388][697]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.033
+[2026.02.21-16.32.52:389][697]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Inventory/BPC_Inventory] ([2] browsable assets)...
+[2026.02.21-16.32.52:389][697]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/BPC_Inventory]
+[2026.02.21-16.32.52:407][697]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/BPC_Inventory_Auto2
+[2026.02.21-16.32.52:409][697]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/BPC_Inventory_Auto2B984AC904D630F65B47D61884BE83A32.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Autosaves/Game/Blueprints/Inventory/BPC_Inventory_Auto2.uasset'
+[2026.02.21-16.32.52:412][697]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WB_ItemSlot] ([2] browsable assets)...
+[2026.02.21-16.32.52:416][697]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WB_ItemSlot.WB_ItemSlot]
+[2026.02.21-16.32.52:416][697]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WB_ItemSlot]
+[2026.02.21-16.32.52:416][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_ItemSlot" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Autosaves/Game/UI/WB_ItemSlot_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2026.02.21-16.32.52:423][697]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/WB_ItemSlot_Auto2
+[2026.02.21-16.32.52:423][697]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/WB_ItemSlot_Auto268B0F98E46E3F6FDCE77128119AF0258.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Autosaves/Game/UI/WB_ItemSlot_Auto2.uasset'
+[2026.02.21-16.32.52:424][697]LogFileHelpers: Auto-saving content packages took 0.036
+[2026.02.21-16.34.59:624][772]LogBlueprint: Error: [AssetLog] D:\gep-25-26-unreal-template-ej-wills\GEP_Template\Content\Blueprints\Inventory\BPC_Inventory.uasset: [Compiler] Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2026.02.21-16.34.59:684][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.02.21-16.34.59:719][772]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.34.59:789][772]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WB_ItemSlot] ([2] browsable assets)...
+[2026.02.21-16.34.59:792][772]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WB_ItemSlot.WB_ItemSlot]
+[2026.02.21-16.34.59:792][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WB_ItemSlot]
+[2026.02.21-16.34.59:792][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_ItemSlot" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_ItemSlot.uasset" SILENT=true
+[2026.02.21-16.34.59:798][772]LogSavePackage: Moving output files for package: /Game/UI/WB_ItemSlot
+[2026.02.21-16.34.59:799][772]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/WB_ItemSlotEF73E6194969657075659FAC677CD6D3.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_ItemSlot.uasset'
+[2026.02.21-16.34.59:809][772]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.719 ms (total: 4.30 sec)
+[2026.02.21-16.34.59:871][772]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.21-16.34.59:871][772]LogContentValidation: Enabled validators:
+[2026.02.21-16.34.59:871][772]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.34.59:871][772]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.34.59:871][772]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.34.59:871][772]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.34.59:871][772]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.34.59:871][772]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.34.59:872][772]AssetCheck: /Game/UI/WB_ItemSlot Validating asset
+[2026.02.21-16.35.07:082][586]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10382.140625
+[2026.02.21-16.35.07:241][605]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.21-16.35.07:241][605]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10382.291016, Update Interval: 340.971100
+[2026.02.21-16.35.21:004][153]LogBlueprint: Error: [AssetLog] D:\gep-25-26-unreal-template-ej-wills\GEP_Template\Content\Blueprints\Inventory\BPC_Inventory.uasset: [Compiler] Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2026.02.21-16.35.21:057][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.02.21-16.36.00:083][606]LogBlueprint: Error: [AssetLog] D:\gep-25-26-unreal-template-ej-wills\GEP_Template\Content\Blueprints\Inventory\BPC_Inventory.uasset: [Compiler] Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2026.02.21-16.36.00:146][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.02.21-16.36.53:310][270]LogBlueprint: Error: [AssetLog] D:\gep-25-26-unreal-template-ej-wills\GEP_Template\Content\Blueprints\Inventory\BPC_Inventory.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2026.02.21-16.36.53:310][270]LogBlueprint: Error: [AssetLog] D:\gep-25-26-unreal-template-ej-wills\GEP_Template\Content\Blueprints\Inventory\BPC_Inventory.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2026.02.21-16.36.53:355][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2026.02.21-16.37.43:978][327]LogStreaming: Display: FlushAsyncLoading(584): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.21-16.37.43:990][327]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Objects/Ball_prefab1.Ball_prefab1
+[2026.02.21-16.37.43:991][327]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2026.02.21-16.37.44:427][327]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_29
+[2026.02.21-16.37.50:475][692]LogSlate: Window 'Ball_prefab1' being destroyed
+[2026.02.21-16.37.50:481][692]LogSlate: Window 'Ball_prefab1' being destroyed
+[2026.02.21-16.37.50:507][692]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.37.50:507][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.37.50:598][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.02.21-16.37.56:728][130]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Objects/Ball_prefab1.Ball_prefab1_C
+[2026.02.21-16.37.56:728][130]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Objects/Ball_prefab1.Ball_prefab1_C
+[2026.02.21-16.37.56:730][130]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Objects/Ball_prefab1.Ball_prefab1 as actor: Ball_prefab1_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Ball_prefab1_C_0
+[2026.02.21-16.37.56:732][130]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Objects/Ball_prefab1.Ball_prefab1 as actor: Ball_prefab1_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Ball_prefab1_C_0
+[2026.02.21-16.37.57:451][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.02.21-16.37.57:455][179]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2026.02.21-16.37.57:468][179]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Objects/Ball_prefab1.Ball_prefab1_C
+[2026.02.21-16.37.57:468][179]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Objects/Ball_prefab1.Ball_prefab1_C
+[2026.02.21-16.37.57:472][179]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Objects/Ball_prefab1.Ball_prefab1 as actor: Ball_prefab1_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Ball_prefab1_C_UAID_50814029CF823DC102_1728564039
+[2026.02.21-16.37.57:473][179]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Objects/Ball_prefab1.Ball_prefab1 as actor: Ball_prefab1_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Ball_prefab1_C_UAID_50814029CF823DC102_1728564039
+[2026.02.21-16.38.03:386][588]LogContentBrowser: Deferred new asset file creation: Ball_prefab2
+[2026.02.21-16.38.03:402][588]LogContentBrowser: Creating deferred item: Ball_prefab2
+[2026.02.21-16.38.03:426][589]LogContentBrowser: Renaming the item being created (Deferred Item: Ball_prefab2).
+[2026.02.21-16.38.10:343][109]LogContentBrowser: Attempting asset rename: Ball_prefab2 -> Cube_prefab
+[2026.02.21-16.38.10:377][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.02.21-16.38.10:392][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.38.10:454][109]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Objects/Cube_prefab] ([2] browsable assets)...
+[2026.02.21-16.38.10:454][109]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_30
+[2026.02.21-16.38.10:507][109]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Objects/Cube_prefab.Cube_prefab]
+[2026.02.21-16.38.10:507][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects/Cube_prefab]
+[2026.02.21-16.38.10:507][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Cube_prefab" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Cube_prefab.uasset" SILENT=true
+[2026.02.21-16.38.10:513][109]LogSavePackage: Moving output files for package: /Game/Blueprints/Objects/Cube_prefab
+[2026.02.21-16.38.10:513][109]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Cube_prefab264C839D4F1FA3C2F21CD0912565BECC.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Cube_prefab.uasset'
+[2026.02.21-16.38.10:530][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.994 ms (total: 4.44 sec)
+[2026.02.21-16.38.10:532][109]LogContentBrowser: End creating deferred item Ball_prefab2
+[2026.02.21-16.38.10:586][109]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.21-16.38.10:586][109]LogContentValidation: Enabled validators:
+[2026.02.21-16.38.10:586][109]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.38.10:586][109]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.38.10:586][109]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.38.10:586][109]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.38.10:586][109]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.38.10:586][109]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.38.10:586][109]AssetCheck: /Game/Blueprints/Objects/Cube_prefab Validating asset
+[2026.02.21-16.38.11:476][168]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Objects/Cube_prefab.Cube_prefab
+[2026.02.21-16.38.11:476][168]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_31
+[2026.02.21-16.38.21:206][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.02.21-16.38.21:229][708]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.38.21:290][708]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Objects/Cube_prefab] ([2] browsable assets)...
+[2026.02.21-16.38.21:330][708]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Objects/Cube_prefab.Cube_prefab]
+[2026.02.21-16.38.21:330][708]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects/Cube_prefab]
+[2026.02.21-16.38.21:330][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Cube_prefab" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Cube_prefab.uasset" SILENT=true
+[2026.02.21-16.38.21:340][708]LogSavePackage: Moving output files for package: /Game/Blueprints/Objects/Cube_prefab
+[2026.02.21-16.38.21:341][708]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Cube_prefabED354BA24F492DE5423BB99372383961.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Cube_prefab.uasset'
+[2026.02.21-16.38.21:350][708]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.737 ms (total: 4.56 sec)
+[2026.02.21-16.38.21:437][708]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.21-16.38.21:437][708]LogContentValidation: Enabled validators:
+[2026.02.21-16.38.21:437][708]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.38.21:437][708]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.38.21:437][708]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.38.21:437][708]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.38.21:437][708]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.38.21:437][708]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.38.21:437][708]AssetCheck: /Game/Blueprints/Objects/Cube_prefab Validating asset
+[2026.02.21-16.38.25:041][887]LogSlate: Took 0.000984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.02.21-16.38.27:179][ 30]LogStreaming: Display: FlushAsyncLoading(585): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.21-16.38.27:187][ 30]LogStaticMesh: Display: Building static mesh Pillar_50x500 (Required Memory Estimate: 0.064754 MB)...
+[2026.02.21-16.38.27:193][ 30]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Pillar_50x500.Pillar_50x500
+[2026.02.21-16.38.28:943][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.02.21-16.38.28:966][120]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.38.29:018][120]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Objects/Cube_prefab] ([2] browsable assets)...
+[2026.02.21-16.38.29:058][120]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Objects/Cube_prefab.Cube_prefab]
+[2026.02.21-16.38.29:058][120]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects/Cube_prefab]
+[2026.02.21-16.38.29:058][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Cube_prefab" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Cube_prefab.uasset" SILENT=true
+[2026.02.21-16.38.29:067][120]LogSavePackage: Moving output files for package: /Game/Blueprints/Objects/Cube_prefab
+[2026.02.21-16.38.29:068][120]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Cube_prefabEE2127FC404EE584DFE731BB88A2D47F.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Cube_prefab.uasset'
+[2026.02.21-16.38.29:079][120]LogFileHelpers: InternalPromptForCheckoutAndSave took 113.904 ms (total: 4.68 sec)
+[2026.02.21-16.38.29:169][120]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.21-16.38.29:169][120]LogContentValidation: Enabled validators:
+[2026.02.21-16.38.29:169][120]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.38.29:169][120]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.38.29:169][120]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.38.29:169][120]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.38.29:169][120]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.38.29:169][120]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.38.29:169][120]AssetCheck: /Game/Blueprints/Objects/Cube_prefab Validating asset
+[2026.02.21-16.38.32:242][273]Cmd: DELETE
+[2026.02.21-16.38.32:242][273]Cmd: ACTOR DELETE
+[2026.02.21-16.38.32:244][273]LogEditorActor: Deleted Actor: Ball_prefab1_C
+[2026.02.21-16.38.32:273][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.02.21-16.38.32:277][273]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2026.02.21-16.38.33:995][365]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Objects/Cube_prefab.Cube_prefab_C
+[2026.02.21-16.38.33:995][365]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Objects/Cube_prefab.Cube_prefab_C
+[2026.02.21-16.38.33:997][365]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Objects/Cube_prefab.Cube_prefab as actor: Cube_prefab_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Cube_prefab_C_0
+[2026.02.21-16.38.33:998][365]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Objects/Cube_prefab.Cube_prefab as actor: Cube_prefab_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Cube_prefab_C_0
+[2026.02.21-16.38.34:981][427]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.02.21-16.38.34:983][427]LogEditorActor: Deleted 0 Actors (0.026 secs)
+[2026.02.21-16.38.34:996][427]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Objects/Cube_prefab.Cube_prefab_C
+[2026.02.21-16.38.34:996][427]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Objects/Cube_prefab.Cube_prefab_C
+[2026.02.21-16.38.35:000][427]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Objects/Cube_prefab.Cube_prefab as actor: Cube_prefab_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Cube_prefab_C_UAID_50814029CF823DC102_1766091040
+[2026.02.21-16.38.35:001][427]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Objects/Cube_prefab.Cube_prefab as actor: Cube_prefab_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Cube_prefab_C_UAID_50814029CF823DC102_1766091040
+[2026.02.21-16.38.36:202][491]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.21-16.38.36:210][491]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.02.21-16.38.36:210][491]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.02.21-16.38.36:212][491]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.671 ms (total: 103.558 ms)
+[2026.02.21-16.38.36:214][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.21-16.38.36:214][491]BlueprintLog: Warning: Blueprint failed to compile:  BPC_Inventory
+[2026.02.21-16.38.40:948][491]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2026.02.21-16.38.42:710][568]LogSlate: Window 'Message Log' being destroyed
+[2026.02.21-16.38.42:718][568]LogSlate: Window 'Message Log' being destroyed
+[2026.02.21-16.38.48:323][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2026.02.21-16.38.48:352][938]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.38.48:404][938]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Inventory/BPC_Inventory] ([2] browsable assets)...
+[2026.02.21-16.38.48:406][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/BPC_Inventory]
+[2026.02.21-16.38.48:406][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Inventory/BPC_Inventory" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Inventory/BPC_Inventory.uasset" SILENT=true
+[2026.02.21-16.38.48:424][938]LogSavePackage: Moving output files for package: /Game/Blueprints/Inventory/BPC_Inventory
+[2026.02.21-16.38.48:425][938]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/BPC_Inventory9DEC8AB44B78A0E8767E128EDC76037A.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Inventory/BPC_Inventory.uasset'
+[2026.02.21-16.38.48:436][938]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.345 ms (total: 4.76 sec)
+[2026.02.21-16.38.48:503][938]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.21-16.38.48:503][938]LogContentValidation: Enabled validators:
+[2026.02.21-16.38.48:503][938]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.38.48:503][938]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.38.48:503][938]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.38.48:503][938]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.38.48:503][938]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.38.48:503][938]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.38.48:503][938]AssetCheck: /Game/Blueprints/Inventory/BPC_Inventory Validating asset
+[2026.02.21-16.38.49:776][  6]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.21-16.38.49:782][  6]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.02.21-16.38.49:782][  6]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.02.21-16.38.49:786][  6]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.759 ms (total: 106.318 ms)
+[2026.02.21-16.38.49:786][  6]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.21-16.38.49:786][  6]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-16.38.49:790][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003858s)
+[2026.02.21-16.38.49:790][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003897s)
+[2026.02.21-16.38.49:813][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.02.21-16.38.49:816][  6]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.02.21-16.38.49:818][  6]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.21-16.38.49:818][  6]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.21-16.38.49:818][  6]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.21-16.38.49:818][  6]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.21-16.38.49:819][  6]LogWorldPartition: Display: WorldPartition initialize took 1.445 ms (total: 205.934 ms)
+[2026.02.21-16.38.49:819][  6]LogPlayLevel: PIE: World Init took: (0.003189s)
+[2026.02.21-16.38.49:820][  6]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2026.02.21-16.38.49:820][  6]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.21-16.38.49:820][  6]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.21-16.38.49:820][  6]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.21-16.38.49:820][  6]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.21-16.38.49:820][  6]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.21-16.38.49:820][  6]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.21-16.38.49:820][  6]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.21-16.38.49:820][  6]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.21-16.38.49:820][  6]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.21-16.38.49:820][  6]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.21-16.38.49:821][  6]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.21-16.38.49:823][  6]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.21-16.38.49:857][  6]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.21-16.38.49:858][  6]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.21-16.38.49:858][  6]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.21-16.38.49:858][  6]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.21-16.38.49:858][  6]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2026.02.21-16.38.49:858][  6]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2026.02.21-16.38.49:861][  6]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2026.02.21-16.38.49:861][  6]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2026.02.21-16.38.49:861][  6]LogInit: FAudioDevice initialized with ID 40.
+[2026.02.21-16.38.49:861][  6]LogAudio: Display: Audio Device (ID: 40) registered with world 'ThirdPersonMap'.
+[2026.02.21-16.38.49:861][  6]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 40
+[2026.02.21-16.38.49:864][  6]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.21-16.38.49:866][  6]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.02.21-16.38.49
+[2026.02.21-16.38.49:866][  6]LogWorld: Bringing up level for play took: 0.001774
+[2026.02.21-16.38.49:869][  6]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2026.02.21-16.38.49:873][  6]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] ball
+[2026.02.21-16.38.49:873][  6]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] T_Brick_Clay_Beveled_M
+[2026.02.21-16.38.49:873][  6]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] Cube
+[2026.02.21-16.38.49:873][  6]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] T_Explosion_SubUV
+[2026.02.21-16.38.49:873][  6]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] Cube
+[2026.02.21-16.38.49:873][  6]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] T_Explosion_SubUV
+[2026.02.21-16.38.49:873][  6]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] ball
+[2026.02.21-16.38.49:873][  6]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] T_Brick_Clay_Beveled_M
+[2026.02.21-16.38.49:873][  6]LogBlueprintUserMessages: [Cube_prefab_C_UAID_50814029CF823DC102_1766091040] Cube
+[2026.02.21-16.38.49:873][  6]LogBlueprintUserMessages: [Cube_prefab_C_UAID_50814029CF823DC102_1766091040] T_Explosion_SubUV
+[2026.02.21-16.38.49:874][  6]PIE: Server logged in
+[2026.02.21-16.38.49:875][  6]PIE: Play in editor total start time 0.092 seconds.
+[2026.02.21-16.38.55:812][426]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.21-16.38.55:814][426]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.02.21-16.38.55:814][426]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.02.21-16.38.56:836][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-16.38.56:836][440]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-16.38.56:836][440]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.38.56:837][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.38.56:837][440]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.02.21-16.38.56:897][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.21-16.38.56:903][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.38.56:930][440]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.21-16.38.56:930][440]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 40
+[2026.02.21-16.38.56:930][440]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2026.02.21-16.38.56:933][440]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2026.02.21-16.38.56:938][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-16.38.56:942][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2026.02.21-16.38.57:052][441]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2026.02.21-16.39.02:826][561]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.21-16.39.02:835][561]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.02.21-16.39.02:835][561]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.02.21-16.39.02:838][561]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.628 ms (total: 108.946 ms)
+[2026.02.21-16.39.02:838][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.21-16.39.02:838][561]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-16.39.02:842][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003965s)
+[2026.02.21-16.39.02:842][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004004s)
+[2026.02.21-16.39.02:865][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.02.21-16.39.02:869][561]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.02.21-16.39.02:871][561]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.21-16.39.02:871][561]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.21-16.39.02:871][561]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.21-16.39.02:871][561]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.21-16.39.02:873][561]LogWorldPartition: Display: WorldPartition initialize took 1.851 ms (total: 207.786 ms)
+[2026.02.21-16.39.02:873][561]LogPlayLevel: PIE: World Init took: (0.003599s)
+[2026.02.21-16.39.02:874][561]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2026.02.21-16.39.02:874][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.21-16.39.02:874][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.21-16.39.02:874][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.21-16.39.02:874][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.21-16.39.02:874][561]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.21-16.39.02:874][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.21-16.39.02:874][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.21-16.39.02:874][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.21-16.39.02:874][561]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.21-16.39.02:874][561]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.21-16.39.02:874][561]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.21-16.39.02:877][561]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.21-16.39.02:913][561]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.21-16.39.02:913][561]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.21-16.39.02:913][561]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.21-16.39.02:913][561]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.21-16.39.02:915][561]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2026.02.21-16.39.02:915][561]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2026.02.21-16.39.02:918][561]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2026.02.21-16.39.02:918][561]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2026.02.21-16.39.02:918][561]LogInit: FAudioDevice initialized with ID 41.
+[2026.02.21-16.39.02:918][561]LogAudio: Display: Audio Device (ID: 41) registered with world 'ThirdPersonMap'.
+[2026.02.21-16.39.02:918][561]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 41
+[2026.02.21-16.39.02:922][561]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.21-16.39.02:923][561]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.02.21-16.39.02
+[2026.02.21-16.39.02:924][561]LogWorld: Bringing up level for play took: 0.002124
+[2026.02.21-16.39.02:927][561]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2026.02.21-16.39.02:931][561]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] ball
+[2026.02.21-16.39.02:931][561]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] T_Brick_Clay_Beveled_M
+[2026.02.21-16.39.02:931][561]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] Cube
+[2026.02.21-16.39.02:931][561]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] T_Explosion_SubUV
+[2026.02.21-16.39.02:931][561]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] Cube
+[2026.02.21-16.39.02:931][561]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] T_Explosion_SubUV
+[2026.02.21-16.39.02:931][561]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] ball
+[2026.02.21-16.39.02:931][561]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] T_Brick_Clay_Beveled_M
+[2026.02.21-16.39.02:931][561]LogBlueprintUserMessages: [Cube_prefab_C_UAID_50814029CF823DC102_1766091040] Cube
+[2026.02.21-16.39.02:931][561]LogBlueprintUserMessages: [Cube_prefab_C_UAID_50814029CF823DC102_1766091040] T_Explosion_SubUV
+[2026.02.21-16.39.02:933][561]PIE: Server logged in
+[2026.02.21-16.39.02:933][561]PIE: Play in editor total start time 0.099 seconds.
+[2026.02.21-16.39.12:413][198]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.21-16.39.12:414][198]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.02.21-16.39.12:414][198]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.02.21-16.39.13:336][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-16.39.13:336][213]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-16.39.13:336][213]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.39.13:337][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.39.13:337][213]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.02.21-16.39.13:400][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.21-16.39.13:406][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.39.13:432][213]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.21-16.39.13:432][213]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 41
+[2026.02.21-16.39.13:432][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2026.02.21-16.39.13:435][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2026.02.21-16.39.13:442][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-16.39.13:446][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.02.21-16.39.13:551][214]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2026.02.21-16.39.21:442][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2026.02.21-16.39.21:462][465]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.39.21:526][465]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Objects/Cube_prefab] ([2] browsable assets)...
+[2026.02.21-16.39.21:570][465]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Objects/Cube_prefab.Cube_prefab]
+[2026.02.21-16.39.21:570][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects/Cube_prefab]
+[2026.02.21-16.39.21:570][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Cube_prefab" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Cube_prefab.uasset" SILENT=true
+[2026.02.21-16.39.21:583][465]LogSavePackage: Moving output files for package: /Game/Blueprints/Objects/Cube_prefab
+[2026.02.21-16.39.21:584][465]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Cube_prefab932F05B848CDE2B0D9B569A06B677752.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Cube_prefab.uasset'
+[2026.02.21-16.39.21:596][465]LogFileHelpers: InternalPromptForCheckoutAndSave took 132.941 ms (total: 4.89 sec)
+[2026.02.21-16.39.21:674][465]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.21-16.39.21:674][465]LogContentValidation: Enabled validators:
+[2026.02.21-16.39.21:674][465]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.39.21:674][465]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.39.21:674][465]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.39.21:674][465]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.39.21:674][465]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.39.21:674][465]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.39.21:675][465]AssetCheck: /Game/Blueprints/Objects/Cube_prefab Validating asset
+[2026.02.21-16.39.23:905][575]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.21-16.39.23:913][575]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.02.21-16.39.23:913][575]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.02.21-16.39.23:916][575]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.826 ms (total: 111.772 ms)
+[2026.02.21-16.39.23:916][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.21-16.39.23:916][575]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-16.39.23:920][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003723s)
+[2026.02.21-16.39.23:920][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003756s)
+[2026.02.21-16.39.23:942][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2026.02.21-16.39.23:945][575]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.02.21-16.39.23:947][575]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.21-16.39.23:947][575]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.21-16.39.23:947][575]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.21-16.39.23:947][575]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.21-16.39.23:948][575]LogWorldPartition: Display: WorldPartition initialize took 1.538 ms (total: 209.325 ms)
+[2026.02.21-16.39.23:948][575]LogPlayLevel: PIE: World Init took: (0.003274s)
+[2026.02.21-16.39.23:949][575]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2026.02.21-16.39.23:949][575]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.21-16.39.23:949][575]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.21-16.39.23:949][575]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.21-16.39.23:949][575]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.21-16.39.23:949][575]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.21-16.39.23:949][575]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.21-16.39.23:949][575]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.21-16.39.23:949][575]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.21-16.39.23:949][575]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.21-16.39.23:949][575]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.21-16.39.23:949][575]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.21-16.39.23:952][575]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.21-16.39.23:987][575]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.21-16.39.23:987][575]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.21-16.39.23:987][575]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.21-16.39.23:987][575]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.21-16.39.23:988][575]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2026.02.21-16.39.23:988][575]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2026.02.21-16.39.23:990][575]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2026.02.21-16.39.23:990][575]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2026.02.21-16.39.23:990][575]LogInit: FAudioDevice initialized with ID 42.
+[2026.02.21-16.39.23:990][575]LogAudio: Display: Audio Device (ID: 42) registered with world 'ThirdPersonMap'.
+[2026.02.21-16.39.23:990][575]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2026.02.21-16.39.23:994][575]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.21-16.39.23:996][575]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.02.21-16.39.23
+[2026.02.21-16.39.23:996][575]LogWorld: Bringing up level for play took: 0.001814
+[2026.02.21-16.39.23:999][575]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2026.02.21-16.39.24:003][575]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] ball
+[2026.02.21-16.39.24:003][575]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] T_Brick_Clay_Beveled_M
+[2026.02.21-16.39.24:003][575]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] Cube
+[2026.02.21-16.39.24:003][575]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] T_Explosion_SubUV
+[2026.02.21-16.39.24:003][575]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] Cube
+[2026.02.21-16.39.24:003][575]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] T_Explosion_SubUV
+[2026.02.21-16.39.24:003][575]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] ball
+[2026.02.21-16.39.24:003][575]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] T_Brick_Clay_Beveled_M
+[2026.02.21-16.39.24:003][575]LogBlueprintUserMessages: [Cube_prefab_C_UAID_50814029CF823DC102_1766091040] Cube
+[2026.02.21-16.39.24:003][575]LogBlueprintUserMessages: [Cube_prefab_C_UAID_50814029CF823DC102_1766091040] T_Explosion_SubUV
+[2026.02.21-16.39.24:004][575]PIE: Server logged in
+[2026.02.21-16.39.24:004][575]PIE: Play in editor total start time 0.091 seconds.
+[2026.02.21-16.39.33:143][179]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.21-16.39.33:143][179]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.02.21-16.39.33:143][179]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.02.21-16.39.34:656][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-16.39.34:656][285]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-16.39.34:656][285]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.39.34:657][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.39.34:657][285]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.02.21-16.39.34:663][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.21-16.39.34:669][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.39.34:698][285]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.21-16.39.34:698][285]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2026.02.21-16.39.34:698][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2026.02.21-16.39.34:700][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2026.02.21-16.39.34:706][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-16.39.34:709][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2026.02.21-16.39.34:818][286]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2026.02.21-16.41.01:008][ 21]LogContentBrowser: Deferred new asset file creation: Ball_prefab2
+[2026.02.21-16.41.01:025][ 21]LogContentBrowser: Creating deferred item: Ball_prefab2
+[2026.02.21-16.41.01:056][ 22]LogContentBrowser: Renaming the item being created (Deferred Item: Ball_prefab2).
+[2026.02.21-16.41.01:991][ 62]LogContentBrowser: Attempting asset rename: Ball_prefab2 -> Ball_prefab2
+[2026.02.21-16.41.02:034][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.02.21-16.41.02:050][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.41.02:109][ 62]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Objects/Ball_prefab2] ([2] browsable assets)...
+[2026.02.21-16.41.02:109][ 62]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_32
+[2026.02.21-16.41.02:156][ 62]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Objects/Ball_prefab2.Ball_prefab2]
+[2026.02.21-16.41.02:156][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects/Ball_prefab2]
+[2026.02.21-16.41.02:156][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Ball_prefab2" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Ball_prefab2.uasset" SILENT=true
+[2026.02.21-16.41.02:164][ 62]LogSavePackage: Moving output files for package: /Game/Blueprints/Objects/Ball_prefab2
+[2026.02.21-16.41.02:164][ 62]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Ball_prefab2D1B5D14C4EB6929E3225E0A90683FB11.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Ball_prefab2.uasset'
+[2026.02.21-16.41.02:183][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.030 ms (total: 5.03 sec)
+[2026.02.21-16.41.02:185][ 62]LogContentBrowser: End creating deferred item Ball_prefab2
+[2026.02.21-16.41.02:258][ 62]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.21-16.41.02:258][ 62]LogContentValidation: Enabled validators:
+[2026.02.21-16.41.02:258][ 62]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.41.02:258][ 62]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.41.02:258][ 62]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.41.02:258][ 62]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.41.02:258][ 62]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.41.02:258][ 62]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.41.02:258][ 62]AssetCheck: /Game/Blueprints/Objects/Ball_prefab2 Validating asset
+[2026.02.21-16.41.06:519][286]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Objects/Ball_prefab2.Ball_prefab2_C
+[2026.02.21-16.41.06:519][286]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Objects/Ball_prefab2.Ball_prefab2_C
+[2026.02.21-16.41.06:521][286]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Objects/Ball_prefab2.Ball_prefab2 as actor: Ball_prefab2_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Ball_prefab2_C_0
+[2026.02.21-16.41.06:522][286]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Objects/Ball_prefab2.Ball_prefab2 as actor: Ball_prefab2_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Ball_prefab2_C_0
+[2026.02.21-16.41.07:375][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.02.21-16.41.07:389][315]LogEditorActor: Deleted 0 Actors (0.038 secs)
+[2026.02.21-16.41.07:402][315]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Objects/Ball_prefab2.Ball_prefab2_C
+[2026.02.21-16.41.07:402][315]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Objects/Ball_prefab2.Ball_prefab2_C
+[2026.02.21-16.41.07:406][315]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Objects/Ball_prefab2.Ball_prefab2 as actor: Ball_prefab2_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Ball_prefab2_C_UAID_50814029CF823DC102_1918497041
+[2026.02.21-16.41.07:408][315]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Objects/Ball_prefab2.Ball_prefab2 as actor: Ball_prefab2_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Ball_prefab2_C_UAID_50814029CF823DC102_1918497041
+[2026.02.21-16.41.10:922][490]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.21-16.41.10:933][490]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.02.21-16.41.10:933][490]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.02.21-16.41.10:936][490]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 3.814 ms (total: 115.587 ms)
+[2026.02.21-16.41.10:937][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.21-16.41.10:937][490]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-16.41.10:943][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005519s)
+[2026.02.21-16.41.10:943][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005573s)
+[2026.02.21-16.41.10:971][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2026.02.21-16.41.10:973][490]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.02.21-16.41.10:975][490]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.21-16.41.10:975][490]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.21-16.41.10:975][490]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.21-16.41.10:975][490]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.21-16.41.10:977][490]LogWorldPartition: Display: WorldPartition initialize took 1.994 ms (total: 211.319 ms)
+[2026.02.21-16.41.10:977][490]LogPlayLevel: PIE: World Init took: (0.004215s)
+[2026.02.21-16.41.10:978][490]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2026.02.21-16.41.10:978][490]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.21-16.41.10:978][490]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.21-16.41.10:978][490]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.21-16.41.10:978][490]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.21-16.41.10:978][490]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.21-16.41.10:978][490]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.21-16.41.10:978][490]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.21-16.41.10:978][490]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.21-16.41.10:978][490]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.21-16.41.10:978][490]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.21-16.41.10:978][490]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.21-16.41.10:981][490]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.21-16.41.11:023][490]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.21-16.41.11:024][490]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.21-16.41.11:024][490]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.21-16.41.11:024][490]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.21-16.41.11:026][490]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2026.02.21-16.41.11:026][490]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2026.02.21-16.41.11:028][490]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2026.02.21-16.41.11:028][490]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2026.02.21-16.41.11:028][490]LogInit: FAudioDevice initialized with ID 43.
+[2026.02.21-16.41.11:028][490]LogAudio: Display: Audio Device (ID: 43) registered with world 'ThirdPersonMap'.
+[2026.02.21-16.41.11:028][490]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2026.02.21-16.41.11:032][490]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.21-16.41.11:033][490]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.02.21-16.41.11
+[2026.02.21-16.41.11:034][490]LogWorld: Bringing up level for play took: 0.001988
+[2026.02.21-16.41.11:037][490]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2026.02.21-16.41.11:042][490]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] ball
+[2026.02.21-16.41.11:042][490]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] T_Brick_Clay_Beveled_M
+[2026.02.21-16.41.11:042][490]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] Cube
+[2026.02.21-16.41.11:042][490]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] T_Explosion_SubUV
+[2026.02.21-16.41.11:042][490]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] Cube
+[2026.02.21-16.41.11:042][490]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] T_Explosion_SubUV
+[2026.02.21-16.41.11:042][490]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] ball
+[2026.02.21-16.41.11:042][490]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] T_Brick_Clay_Beveled_M
+[2026.02.21-16.41.11:042][490]LogBlueprintUserMessages: [Cube_prefab_C_UAID_50814029CF823DC102_1766091040] Cube
+[2026.02.21-16.41.11:042][490]LogBlueprintUserMessages: [Cube_prefab_C_UAID_50814029CF823DC102_1766091040] T_Explosion_SubUV
+[2026.02.21-16.41.11:042][490]LogBlueprintUserMessages: [Ball_prefab2_C_UAID_50814029CF823DC102_1918497041] ball
+[2026.02.21-16.41.11:042][490]LogBlueprintUserMessages: [Ball_prefab2_C_UAID_50814029CF823DC102_1918497041] T_Brick_Clay_Beveled_M
+[2026.02.21-16.41.11:043][490]PIE: Server logged in
+[2026.02.21-16.41.11:044][490]PIE: Play in editor total start time 0.111 seconds.
+[2026.02.21-16.41.18:345][910]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.21-16.41.18:345][910]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.02.21-16.41.18:345][910]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.02.21-16.41.19:625][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-16.41.19:625][991]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-16.41.19:625][991]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.41.19:626][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.41.19:626][991]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.02.21-16.41.19:651][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.21-16.41.19:655][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.41.19:681][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-16.41.19:681][991]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2026.02.21-16.41.19:681][991]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2026.02.21-16.41.19:683][991]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2026.02.21-16.41.19:690][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.02.21-16.41.19:828][992]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2026.02.21-16.41.21:526][ 63]Cmd: DELETE
+[2026.02.21-16.41.21:528][ 63]Cmd: ACTOR DELETE
+[2026.02.21-16.41.21:529][ 63]LogEditorActor: Deleted Actor: Ball_prefab2_C
+[2026.02.21-16.41.21:556][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.02.21-16.41.21:560][ 63]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2026.02.21-16.41.36:048][171]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10771.168945
+[2026.02.21-16.41.37:048][174]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.21-16.41.37:048][174]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10771.834961, Update Interval: 345.171661
+[2026.02.21-16.43.29:828][903]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.02.21-16.43.29:835][903]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/MD/XTKK49U3N8GWGMNWR87MAH_Auto3
+[2026.02.21-16.43.29:836][903]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/XTKK49U3N8GWGMNWR87MAH_Auto324F132BB44A085CA72125E85FBF9191A.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/MD/XTKK49U3N8GWGMNWR87MAH_Auto3.uasset'
+[2026.02.21-16.43.29:839][903]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.034
+[2026.02.21-16.43.29:839][903]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.034
+[2026.02.21-16.43.29:840][903]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Objects/Ball_prefab2] ([2] browsable assets)...
+[2026.02.21-16.43.29:840][903]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects/Ball_prefab2]
+[2026.02.21-16.43.29:850][903]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Objects/Ball_prefab2_Auto3
+[2026.02.21-16.43.29:850][903]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Ball_prefab2_Auto38DEDCF61475476F0625FE69B2C9BCA02.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Autosaves/Game/Blueprints/Objects/Ball_prefab2_Auto3.uasset'
+[2026.02.21-16.43.29:852][903]LogFileHelpers: Auto-saving content packages took 0.014
+[2026.02.21-16.43.49:165][284]LogDerivedDataCache: C:/Users/ej9-williams/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.21-16.46.13:076][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.02.21-16.46.13:170][649]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.46.13:239][649]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2026.02.21-16.46.13:301][649]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2026.02.21-16.46.13:301][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2026.02.21-16.46.13:326][649]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2026.02.21-16.46.13:327][649]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/BP_ThirdPersonCharacter3F16D6DC496AF5847C7E44B62DF70AFC.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2026.02.21-16.46.13:340][649]LogFileHelpers: InternalPromptForCheckoutAndSave took 169.385 ms (total: 5.20 sec)
+[2026.02.21-16.46.13:413][649]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.21-16.46.13:413][649]LogContentValidation: Enabled validators:
+[2026.02.21-16.46.13:413][649]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.46.13:413][649]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.46.13:413][649]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.46.13:413][649]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.46.13:413][649]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.46.13:413][649]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.46.13:413][649]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2026.02.21-16.46.14:589][716]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.21-16.46.14:597][716]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.02.21-16.46.14:597][716]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.02.21-16.46.14:600][716]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.980 ms (total: 118.567 ms)
+[2026.02.21-16.46.14:600][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.21-16.46.14:600][716]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-16.46.14:604][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003683s)
+[2026.02.21-16.46.14:604][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003719s)
+[2026.02.21-16.46.14:627][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.02.21-16.46.14:630][716]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.02.21-16.46.14:632][716]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.21-16.46.14:632][716]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.21-16.46.14:632][716]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.21-16.46.14:632][716]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.21-16.46.14:634][716]LogWorldPartition: Display: WorldPartition initialize took 1.426 ms (total: 212.746 ms)
+[2026.02.21-16.46.14:634][716]LogPlayLevel: PIE: World Init took: (0.003327s)
+[2026.02.21-16.46.14:635][716]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2026.02.21-16.46.14:635][716]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.21-16.46.14:635][716]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.21-16.46.14:635][716]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.21-16.46.14:635][716]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.21-16.46.14:635][716]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.21-16.46.14:635][716]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.21-16.46.14:635][716]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.21-16.46.14:635][716]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.21-16.46.14:635][716]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.21-16.46.14:635][716]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.21-16.46.14:635][716]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.21-16.46.14:639][716]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.21-16.46.14:672][716]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.21-16.46.14:672][716]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.21-16.46.14:672][716]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.21-16.46.14:672][716]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.21-16.46.14:673][716]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2026.02.21-16.46.14:673][716]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2026.02.21-16.46.14:676][716]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2026.02.21-16.46.14:676][716]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2026.02.21-16.46.14:676][716]LogInit: FAudioDevice initialized with ID 44.
+[2026.02.21-16.46.14:676][716]LogAudio: Display: Audio Device (ID: 44) registered with world 'ThirdPersonMap'.
+[2026.02.21-16.46.14:676][716]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2026.02.21-16.46.14:680][716]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.21-16.46.14:682][716]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.02.21-16.46.14
+[2026.02.21-16.46.14:682][716]LogWorld: Bringing up level for play took: 0.001865
+[2026.02.21-16.46.14:685][716]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2026.02.21-16.46.14:689][716]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] ball
+[2026.02.21-16.46.14:689][716]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] T_Brick_Clay_Beveled_M
+[2026.02.21-16.46.14:689][716]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] Cube
+[2026.02.21-16.46.14:689][716]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8232C102_2116084104] T_Explosion_SubUV
+[2026.02.21-16.46.14:689][716]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] Cube
+[2026.02.21-16.46.14:689][716]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8297BF02_2107509768] T_Explosion_SubUV
+[2026.02.21-16.46.14:689][716]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] ball
+[2026.02.21-16.46.14:689][716]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] T_Brick_Clay_Beveled_M
+[2026.02.21-16.46.14:689][716]LogBlueprintUserMessages: [Cube_prefab_C_UAID_50814029CF823DC102_1766091040] Cube
+[2026.02.21-16.46.14:689][716]LogBlueprintUserMessages: [Cube_prefab_C_UAID_50814029CF823DC102_1766091040] T_Explosion_SubUV
+[2026.02.21-16.46.14:690][716]PIE: Server logged in
+[2026.02.21-16.46.14:692][716]PIE: Play in editor total start time 0.095 seconds.
+[2026.02.21-16.46.16:680][857]LogBlueprintUserMessages: [Cube_prefab_C_UAID_50814029CF823DC102_1766091040] Pickup Actor: Cube
+[2026.02.21-16.46.16:680][857]LogBlueprintUserMessages: [BPC_Inventory] false
+[2026.02.21-16.46.16:680][857]LogBlueprintUserMessages: [WB_Inventory_C_0] Icon
+[2026.02.21-16.46.17:475][918]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.21-16.46.17:475][918]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.02.21-16.46.17:475][918]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.02.21-16.46.25:910][574]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.02.21-16.46.25:910][574]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.02.21-16.46.27:749][719]LogBlueprintUserMessages: [Item_C_UAID_50814029CF8271BD02_1687584967] Pickup Actor: ball
+[2026.02.21-16.46.27:749][719]LogBlueprintUserMessages: [BPC_Inventory] false
+[2026.02.21-16.46.27:750][719]LogBlueprintUserMessages: [WB_Inventory_C_0] Icon
+[2026.02.21-16.46.29:218][834]LogBlueprintUserMessages: [Item_C_UAID_107C615DD52711BF02_1102875184] Pickup Actor: ball
+[2026.02.21-16.46.29:219][834]LogBlueprintUserMessages: [BPC_Inventory] ball1
+[2026.02.21-16.46.30:615][944]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.21-16.46.30:615][944]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.02.21-16.46.32:004][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-16.46.32:004][ 48]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.21-16.46.32:004][ 48]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.46.32:004][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.46.32:004][ 48]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.02.21-16.46.32:036][ 48]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.21-16.46.32:042][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.46.32:069][ 48]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.21-16.46.32:069][ 48]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2026.02.21-16.46.32:070][ 48]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2026.02.21-16.46.32:071][ 48]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2026.02.21-16.46.32:078][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.21-16.46.32:081][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.02.21-16.46.32:115][ 49]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2026.02.21-16.46.48:453][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.02.21-16.46.48:508][503]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.46.48:565][503]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WB_ItemSlot] ([2] browsable assets)...
+[2026.02.21-16.46.48:569][503]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WB_ItemSlot.WB_ItemSlot]
+[2026.02.21-16.46.48:569][503]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WB_ItemSlot]
+[2026.02.21-16.46.48:569][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_ItemSlot" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_ItemSlot.uasset" SILENT=true
+[2026.02.21-16.46.48:575][503]LogSavePackage: Moving output files for package: /Game/UI/WB_ItemSlot
+[2026.02.21-16.46.48:577][503]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/WB_ItemSlotDD6EF16947FFB8D6331839A57C38F1E6.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/UI/WB_ItemSlot.uasset'
+[2026.02.21-16.46.48:590][503]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.515 ms (total: 5.28 sec)
+[2026.02.21-16.46.48:646][503]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.21-16.46.48:648][503]LogContentValidation: Enabled validators:
+[2026.02.21-16.46.48:648][503]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.46.48:648][503]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.46.48:648][503]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.46.48:648][503]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.46.48:648][503]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.46.48:648][503]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.46.48:648][503]AssetCheck: /Game/UI/WB_ItemSlot Validating asset
+[2026.02.21-16.47.00:541][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2026.02.21-16.47.02:959][251]LogSlate: Window 'Delete Assets' being destroyed
+[2026.02.21-16.47.03:225][251]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.47.03:226][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.47.03:284][251]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.47.03:284][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.47.03:403][251]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.02.21-16.47.03:403][251]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.47.03:403][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.47.03:482][251]LogSlate: Window 'Cube_prefab' being destroyed
+[2026.02.21-16.47.03:496][251]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.02.21-16.47.03:496][251]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.47.03:496][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.47.03:557][251]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.47.03:557][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.47.03:567][251]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.47.03:567][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.47.03:630][251]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.47.03:630][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.47.03:696][251]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.47.03:696][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.47.03:704][251]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.02.21-16.47.03:704][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.21-16.47.03:733][251]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/Objects/Ball_prefab1.Ball_prefab1
+	Asset Type: Blueprint
+[2026.02.21-16.47.04:006][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.02.21-16.47.04:096][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2026.02.21-16.47.04:119][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.02.21-16.47.04:142][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.02.21-16.47.04:178][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.02.21-16.47.06:800][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.02.21-16.47.09:613][410]LogSlate: Window 'Delete Assets' being destroyed
+[2026.02.21-16.47.09:808][410]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/Objects/Ball_prefab2.Ball_prefab2
+	Asset Type: Blueprint
+[2026.02.21-16.47.10:072][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2026.02.21-16.47.10:129][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.02.21-16.47.10:156][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2026.02.21-16.47.10:176][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2026.02.21-16.47.14:655][708]Cmd: DELETE
+[2026.02.21-16.47.14:656][708]Cmd: ACTOR DELETE
+[2026.02.21-16.47.14:657][708]LogEditorActor: Deleted Actor: Ball_prefab_C
+[2026.02.21-16.47.14:686][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.02.21-16.47.14:690][708]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2026.02.21-16.47.15:440][754]Cmd: DELETE
+[2026.02.21-16.47.15:440][754]Cmd: ACTOR DELETE
+[2026.02.21-16.47.15:442][754]LogEditorActor: Deleted Actor: Ball_prefab_C
+[2026.02.21-16.47.15:467][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.02.21-16.47.15:470][754]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2026.02.21-16.47.20:155][ 86]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Objects/Cube_prefab.Cube_prefab
+[2026.02.21-16.47.20:155][ 86]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_34
+[2026.02.21-16.47.52:850][869]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.02.21-16.47.52:883][869]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.21-16.47.52:951][869]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Objects/Cube_prefab] ([2] browsable assets)...
+[2026.02.21-16.47.52:999][869]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Objects/Cube_prefab.Cube_prefab]
+[2026.02.21-16.47.52:999][869]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects/Cube_prefab]
+[2026.02.21-16.47.52:999][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Cube_prefab" FILE="D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Cube_prefab.uasset" SILENT=true
+[2026.02.21-16.47.53:010][869]LogSavePackage: Moving output files for package: /Game/Blueprints/Objects/Cube_prefab
+[2026.02.21-16.47.53:011][869]LogSavePackage: Moving 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Saved/Cube_prefabDD1F00904B85359D9905159C4E9228FE.tmp' to 'D:/gep-25-26-unreal-template-ej-wills/GEP_Template/Content/Blueprints/Objects/Cube_prefab.uasset'
+[2026.02.21-16.47.53:025][869]LogFileHelpers: InternalPromptForCheckoutAndSave took 142.155 ms (total: 5.42 sec)
+[2026.02.21-16.47.53:119][869]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.21-16.47.53:119][869]LogContentValidation: Enabled validators:
+[2026.02.21-16.47.53:119][869]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.21-16.47.53:119][869]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.21-16.47.53:119][869]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.21-16.47.53:119][869]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.21-16.47.53:119][869]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.21-16.47.53:119][869]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.21-16.47.53:119][869]AssetCheck: /Game/Blueprints/Objects/Cube_prefab Validating asset
+[2026.02.21-16.48.17:613][916]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11172.772461
+[2026.02.21-16.48.18:614][919]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.21-16.48.18:614][919]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11173.439453, Update Interval: 358.969086
